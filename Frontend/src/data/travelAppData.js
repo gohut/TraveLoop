@@ -1,0 +1,332 @@
+export const cityCatalog = [
+  {
+    id: 'london',
+    name: 'London Bridge',
+    country: 'United Kingdom',
+    region: 'Europe',
+    popularity: 95,
+    costIndex: 'High',
+    highlight: 'Riverside heritage, skyline walks, and polished nightlife.',
+    image:
+      'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Tower Bridge London',
+  },
+  {
+    id: 'singapore',
+    name: 'Marina Bay',
+    country: 'Singapore',
+    region: 'Asia',
+    popularity: 93,
+    costIndex: 'High',
+    highlight: 'Luxury waterfront stays and design-led city experiences.',
+    image:
+      'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Marina Bay Singapore',
+  },
+  {
+    id: 'dubai',
+    name: 'Burj Khalifa',
+    country: 'United Arab Emirates',
+    region: 'Middle East',
+    popularity: 94,
+    costIndex: 'High',
+    highlight: 'Sky-high glamour, premium shopping, and desert luxury.',
+    image:
+      'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Burj Khalifa Dubai',
+  },
+  {
+    id: 'udaipur',
+    name: 'Udaipur',
+    country: 'India',
+    region: 'Asia',
+    popularity: 86,
+    costIndex: 'Medium',
+    highlight: 'Lake palaces, romantic sunsets, and regal heritage.',
+    image:
+      'https://images.unsplash.com/photo-1599661046827-dacde6976548?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Udaipur City Palace',
+  },
+  {
+    id: 'coorg',
+    name: 'Coorg',
+    country: 'India',
+    region: 'Asia',
+    popularity: 79,
+    costIndex: 'Medium',
+    highlight: 'Coffee estates, slow mornings, and rainforest air.',
+    image:
+      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Coorg India',
+  },
+  {
+    id: 'santorini',
+    name: 'Santorini',
+    country: 'Greece',
+    region: 'Europe',
+    popularity: 91,
+    costIndex: 'High',
+    highlight: 'Caldera sunsets, cliffside suites, and elegant dining.',
+    image:
+      'https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Santorini Greece',
+  },
+  {
+    id: 'kyoto',
+    name: 'Kyoto',
+    country: 'Japan',
+    region: 'Asia',
+    popularity: 88,
+    costIndex: 'Medium',
+    highlight: 'Temple mornings, heritage neighborhoods, and quiet luxury.',
+    image:
+      'https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Kyoto Japan',
+  },
+  {
+    id: 'hallstatt',
+    name: 'Hallstatt',
+    country: 'Austria',
+    region: 'Europe',
+    popularity: 82,
+    costIndex: 'Medium',
+    highlight: 'Storybook streets, lake reflections, and scenic rail access.',
+    image:
+      'https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=900&q=80',
+    mapQuery: 'Hallstatt Austria',
+  },
+]
+
+export const activityCatalog = [
+  {
+    id: 'activity-river-cruise',
+    name: 'Sunset River Cruise',
+    type: 'Sightseeing',
+    duration: '2 hours',
+    durationHours: 2,
+    cost: 4200,
+    cityId: 'london',
+    image:
+      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
+    description: 'A polished evening cruise with skyline views and curated commentary.',
+  },
+  {
+    id: 'activity-market-tour',
+    name: 'Old Quarter Food Walk',
+    type: 'Food',
+    duration: '3 hours',
+    durationHours: 3,
+    cost: 2800,
+    cityId: 'kyoto',
+    image:
+      'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80',
+    description: 'Taste signature local dishes with a guide through the city core.',
+  },
+  {
+    id: 'activity-desert-drive',
+    name: 'Private Desert Drive',
+    type: 'Adventure',
+    duration: '5 hours',
+    durationHours: 5,
+    cost: 9800,
+    cityId: 'dubai',
+    image:
+      'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80',
+    description: 'Dune route, sunset lounge stop, and premium camp dinner.',
+  },
+  {
+    id: 'activity-palace-tour',
+    name: 'Palace Heritage Tour',
+    type: 'Culture',
+    duration: '2.5 hours',
+    durationHours: 2.5,
+    cost: 2500,
+    cityId: 'udaipur',
+    image:
+      'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80',
+    description: 'A guided walk through landmark courtyards, galleries, and viewpoints.',
+  },
+  {
+    id: 'activity-tea-ceremony',
+    name: 'Private Tea Ceremony',
+    type: 'Culture',
+    duration: '1.5 hours',
+    durationHours: 1.5,
+    cost: 3600,
+    cityId: 'kyoto',
+    image:
+      'https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80',
+    description: 'A serene cultural experience inside an intimate traditional setting.',
+  },
+  {
+    id: 'activity-balloon-view',
+    name: 'Sunrise Panorama Session',
+    type: 'Sightseeing',
+    duration: '2 hours',
+    durationHours: 2,
+    cost: 5400,
+    cityId: 'santorini',
+    image:
+      'https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80',
+    description: 'A premium morning viewpoint session with photography support.',
+  },
+  {
+    id: 'activity-coffee-estate',
+    name: 'Coffee Estate Experience',
+    type: 'Nature',
+    duration: '4 hours',
+    durationHours: 4,
+    cost: 1900,
+    cityId: 'coorg',
+    image:
+      'https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80',
+    description: 'Estate walk, tasting session, and slow lunch in the hills.',
+  },
+  {
+    id: 'activity-lakeside-photo',
+    name: 'Lakeside Photo Trail',
+    type: 'Nature',
+    duration: '2 hours',
+    durationHours: 2,
+    cost: 1200,
+    cityId: 'hallstatt',
+    image:
+      'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80',
+    description: 'An easy scenic route with the best photo moments mapped out.',
+  },
+]
+
+const now = '2026-05-10T10:00:00.000Z'
+
+export const seedState = {
+  isAuthenticated: false,
+  user: {
+    name: 'Mr. Traveller',
+    email: 'traveller@travelloop.com',
+    language: 'English',
+    photo: '',
+    bio: 'Luxury-first planner with a soft spot for scenic routes and balanced budgets.',
+  },
+  savedDestinations: ['Marina Bay', 'Hallstatt', 'Kyoto'],
+  trips: [
+    {
+      id: 'trip-udaipur',
+      name: 'Udaipur Palace Weekend',
+      destinationSummary: 'Udaipur, India',
+      description: 'A regal long weekend built around lake views, palace heritage, and slow evenings.',
+      coverPhoto:
+        'https://images.unsplash.com/photo-1599661046827-dacde6976548?auto=format&fit=crop&w=1200&q=80',
+      startDate: '2026-06-12',
+      endDate: '2026-06-15',
+      destinations: [
+        {
+          id: 'stop-udaipur-1',
+          cityId: 'udaipur',
+          city: 'Udaipur',
+          country: 'India',
+          region: 'Asia',
+          startDate: '2026-06-12',
+          endDate: '2026-06-13',
+          activities: [
+            {
+              id: 'trip-activity-1',
+              catalogId: 'activity-palace-tour',
+              name: 'Palace Heritage Tour',
+              type: 'Culture',
+              duration: '2.5 hours',
+              cost: 2500,
+              image:
+                'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=900&q=80',
+              description: 'A guided walk through landmark courtyards, galleries, and viewpoints.',
+              time: '10:00',
+            },
+          ],
+        },
+        {
+          id: 'stop-udaipur-2',
+          cityId: 'coorg',
+          city: 'Coorg',
+          country: 'India',
+          region: 'Asia',
+          startDate: '2026-06-14',
+          endDate: '2026-06-15',
+          activities: [
+            {
+              id: 'trip-activity-2',
+              catalogId: 'activity-coffee-estate',
+              name: 'Coffee Estate Experience',
+              type: 'Nature',
+              duration: '4 hours',
+              cost: 1900,
+              image:
+                'https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80',
+              description: 'Estate walk, tasting session, and slow lunch in the hills.',
+              time: '09:30',
+            },
+          ],
+        },
+      ],
+      budget: {
+        transport: 18000,
+        stay: 24000,
+        activities: 4400,
+        meals: 7200,
+        dailyLimit: 14000,
+      },
+      packing: [
+        { id: 'pack-1', label: 'Passport and IDs', category: 'Documents', packed: true },
+        { id: 'pack-2', label: 'Resort outfits', category: 'Clothing', packed: false },
+        { id: 'pack-3', label: 'Camera charger', category: 'Electronics', packed: false },
+      ],
+      notes: [
+        {
+          id: 'note-1',
+          title: 'Hotel check-in',
+          content: 'Confirm early check-in with the palace hotel one day before arrival.',
+          stopId: 'stop-udaipur-1',
+          createdAt: now,
+        },
+      ],
+    },
+    {
+      id: 'trip-coorg',
+      name: 'Coorg Wellness Retreat',
+      destinationSummary: 'Coorg, India',
+      description: 'A draft retreat with slow mornings, estate walks, and flexible spa time.',
+      coverPhoto:
+        'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+      startDate: '2026-07-24',
+      endDate: '2026-07-28',
+      destinations: [],
+      budget: {
+        transport: 12500,
+        stay: 18000,
+        activities: 0,
+        meals: 5600,
+        dailyLimit: 11000,
+      },
+      packing: [],
+      notes: [],
+    },
+    {
+      id: 'trip-istanbul',
+      name: 'Istanbul Culture Trail',
+      destinationSummary: 'Istanbul, Turkiye',
+      description: 'Saved inspiration for a city trip layered with food, history, and bazaars.',
+      coverPhoto:
+        'https://images.unsplash.com/photo-1527838832700-5059252407fa?auto=format&fit=crop&w=1200&q=80',
+      startDate: '2026-08-18',
+      endDate: '2026-08-23',
+      destinations: [],
+      budget: {
+        transport: 0,
+        stay: 0,
+        activities: 0,
+        meals: 0,
+        dailyLimit: 9000,
+      },
+      packing: [],
+      notes: [],
+    },
+  ],
+}
