@@ -50,6 +50,7 @@ TravelLoop is built to demonstrate the power of relational data structures and m
 3. Database: Structured relational schema to manage user-specific itineraries, stops, activities, and expenses.
 
 # Overview
+<img width="1600" height="883" alt="WhatsApp Image 2026-05-10 at 4 52 27 PM (1)" src="https://github.com/user-attachments/assets/8778185c-3103-4f49-8e23-01523b6caa2b" />
 <img width="1253" height="737" alt="WhatsApp Image 2026-05-10 at 4 52 24 PM" src="https://github.com/user-attachments/assets/bcfb7c30-217e-42b7-9c95-53d50e2f99c6" />
 <img width="1400" height="1044" alt="WhatsApp Image 2026-05-10 at 4 52 27 PM (8)" src="https://github.com/user-attachments/assets/ac6cb726-cdf0-4a8d-88e8-8ded284df123" />
 
